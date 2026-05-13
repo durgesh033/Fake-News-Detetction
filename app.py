@@ -6,7 +6,7 @@ import trafilatura
 
 # Load Models
 
-model = pickle.load(open("Models\logistic_model.pkl", "rb"))
+model = pickle.load(open("Models/logistic_model.pkl", "rb"))
 vectorizer = pickle.load(open("Models/tfidf_vectorizer.pkl", "rb"))
 
 # Clean Text
