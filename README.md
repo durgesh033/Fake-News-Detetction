@@ -176,10 +176,10 @@ Article Viewer
 🚀 Deployment
 
 This project can be deployed using:
-
 Streamlit Cloud
 Render
 Hugging Face Spaces
+
 ---
 
 # 👨‍💻 Author
