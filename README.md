@@ -62,7 +62,7 @@ streamlit run app.py
 ```
 ---
 
-#🧠 Machine Learning Model
+# 🧠 Machine Learning Model
 
 This project uses:
 
@@ -70,14 +70,14 @@ This project uses:
   - Logistic Regression
 ---
 
-#📸 Output
+# 📸 Output
 
 The application predicts whether the entered news article is Fake or Real.
 ---
-#📜 License
+# 📜 License
 
 This project is open-source and free to use.
 
-#👨‍💻 Author
+# 👨‍💻 Author
 
 Developed by Durgesh Kumar Rout
