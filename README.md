@@ -60,6 +60,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
 ---
 
 # 🧠 Machine Learning Model
@@ -68,15 +69,21 @@ This project uses:
 
   - TF-IDF Vectorizer
   - Logistic Regression
+
+
 ---
 
 # 📸 Output
 
 The application predicts whether the entered news article is Fake or Real.
+
+
 ---
 # 📜 License
 
 This project is open-source and free to use.
+
+---
 
 # 👨‍💻 Author
 
