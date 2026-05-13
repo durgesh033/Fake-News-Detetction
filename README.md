@@ -58,6 +58,7 @@ Logistic Regression Model
 Prediction + Confidence Score
             ↓
 Source Credibility Analysis
+```
 
 ---
 
@@ -127,20 +128,9 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-# 📂 Project Structure
-Fake-News-Detection/
-│
-├── Models/
-│   ├── logistic_model.pkl
-│   └── tfidf_vectorizer.pkl
-│
-├── app.py
-├── training.ipynb
-├── requirements.txt
-├── README.md
-├── Fake.csv
-└── True.csv
-📈 Model Performance
+---
+
+# 📈 Model Performance
 
 The model was trained using NLP preprocessing and TF-IDF feature extraction.
 
@@ -159,6 +149,7 @@ Fake/Real Classification
 Confidence Score
 Article Viewer
 
+---
 # 📸 Application Screenshots
 
 ## Home Interface
@@ -172,6 +163,7 @@ Article Viewer
 
 ## Extracted Article
 ![Extracted Article](Screenshots/ARTICLE.png)
+---
 
 # 🌍 Future Improvements
 
@@ -188,10 +180,12 @@ This project can be deployed using:
 Streamlit Cloud
 Render
 Hugging Face Spaces
+---
 
 # 👨‍💻 Author
 
 Durgesh Kumar Rout
+---
 
 # 📜 License
 
