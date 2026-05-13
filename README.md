@@ -51,12 +51,12 @@ git clone https://github.com/your-username/fake-news-detection.git
 cd fake-news-detection
 ```
 
-Step 3: Install Required Libraries
+## Step 3: Install Required Libraries
 ```bash
 pip install -r requirements.txt
 ```
 
-Step 4: Run the Application
+## Step 4: Run the Application
 ```bash
 streamlit run app.py
 ```
