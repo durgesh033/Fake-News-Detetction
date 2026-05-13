@@ -1,24 +1,33 @@
-📰 Fake News Detection
+# 📰 Fake News Detection
 
-A simple Machine Learning project that detects whether a news article is Fake or Real.
+A simple Machine Learning project that detects whether a news article is **Fake** or **Real** using Natural Language Processing (NLP).
 
-This project uses Python, Machine Learning, and Natural Language Processing (NLP) to analyze news text and make predictions. Because the internet clearly needed another system to figure out who is lying. Truly a golden age of civilization.
+This project is built using **Python**, **Scikit-learn**, and **Streamlit**.
 
-🚀 Features
-Detects fake and real news
-Simple and beginner-friendly project
-Easy to use interface
-Built using Machine Learning
-Fast prediction system
+---
 
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Scikit-learn
-Streamlit
+# 🚀 Features
 
-📂 Project Structure
+- Detects fake and real news
+- Beginner-friendly project
+- Simple and clean UI
+- Fast prediction system
+- Machine Learning based detection
+
+---
+
+# 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Streamlit
+
+---
+
+# 📂 Project Structure
+
 Fake-News-Detection/
 │
 ├── app.py
@@ -28,40 +37,59 @@ Fake-News-Detection/
 ├── requirements.txt
 └── README.md
 
-⚙️ How It Works
+---
+
+# ⚙️ How It Works
+
 1. User enters news text
-2. Text is converted into numerical data
+2. Text is converted into numerical form
 3. Machine Learning model analyzes the text
 4. The model predicts whether the news is:
-      - Fake
-      - Real
-📦 Installation
+   - Fake
+   - Real
 
-Clone the repository:
+---
 
+# 📦 Installation
+
+## Step 1: Clone the Repository
+
+```bash
 git clone https://github.com/your-username/fake-news-detection.git
+```
 
-Install required libraries:
+## Step 2: Go to the Project Folder
 
+```bash
+cd fake-news-detection
+```
+
+Step 3: Install Required Libraries
+```bash
 pip install -r requirements.txt
+```
 
-Run the project:
-
+Step 4: Run the Application
+```bash
 streamlit run app.py
-🧠 Machine Learning Model
+```
+
+##🧠 Machine Learning Model
 
 This project uses:
 
-TF-IDF Vectorizer
-Logistic Regression
-📸 Output
+  - TF-IDF Vectorizer
+  - Logistic Regression
 
-The application shows whether the entered news is Fake or Real.
 
-📜 License
+##📸 Output
+
+The application predicts whether the entered news article is Fake or Real.
+
+##📜 License
 
 This project is open-source and free to use.
 
-👨‍💻 Author
+##👨‍💻 Author
 
 Developed by Durgesh Kumar Rout
