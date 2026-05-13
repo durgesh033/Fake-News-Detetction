@@ -74,12 +74,7 @@ elif option == "News URL":
             downloaded = trafilatura.fetch_url(url)
             news = trafilatura.extract(downloaded)
 
-            if not news:
-                st.error("Could not extract article")
-
-            #Source Credibility Check
-            else: 
-                trusted_sources = [
+            trusted_sources = [
                 "reuters.com",
                 "bbc.com",
                 "apnews.com",
@@ -89,8 +84,8 @@ elif option == "News URL":
                 "ndtv.com",
                 "who.int"
             ]
-
-            source_found = False
+            
+            source_found = False;
             
             for source in trusted_sources:
                 if source in url:
@@ -100,9 +95,6 @@ elif option == "News URL":
 
             if not source_found:
                 st.warning("Unknown or Unverified News Source")
-
-            st.subheader("Extracted Article")
-            st.write(news[:1500])
 
         except:
             st.error("Could not extract article from URL")
@@ -137,6 +129,11 @@ if st.button("Predict"):
 
         word_count = len(news.split())
         st.write(f"Word Count: {word_count}")
+        st.progress(int(confidence))
+
+
+        with st.expander("View Extracted Article"):
+            st.write(news[:3000])
 
 # DISCLAIMER
 
